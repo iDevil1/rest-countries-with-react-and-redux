@@ -1,7 +1,7 @@
 {
   "homepage": "https://idevil1.github.io/rest-countries-with-react-and-redux/",
   "name": "react-with-redux",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
