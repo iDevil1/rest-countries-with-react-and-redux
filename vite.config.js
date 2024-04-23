@@ -6,6 +6,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: "dist",
+    assetsInclude: ['**/*.json'] // Include JSON files in the build output
+
   },
   base: '/rest-countries-with-react-and-redux/'
 });

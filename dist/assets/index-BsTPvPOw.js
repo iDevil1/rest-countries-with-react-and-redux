@@ -11898,7 +11898,7 @@ function ye(e) {
 }
 const il = ey(
     "fetchCountries",
-    async () => await (await fetch("/data.json")).json()
+    async () => await (await fetch("./data.json")).json()
   ),
   gy = uy({
     name: "fetch",
