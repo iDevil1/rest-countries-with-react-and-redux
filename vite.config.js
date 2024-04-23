@@ -7,4 +7,5 @@ export default defineConfig({
   build: {
     outDir: "dist",
   },
+  base: '/rest-countries-with-react-and-redux/'
 });
