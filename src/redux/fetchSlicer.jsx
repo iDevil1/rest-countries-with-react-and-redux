@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 export const fetchCountries = createAsyncThunk("fetchCountries", async () => {
-  const response = await fetch("../../data.json");
+  const response = await fetch("/data.json");
   return await response.json();
 });
 
